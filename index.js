@@ -11,8 +11,8 @@ function fuzzyMatch(list, initial) {
   });
 }
 
-function matchName (list, name) {
-  return list.filter(function (driver) {
-    return driver.name.toLowerCase() === name.toLowerCase();
+function matchName(list, name) {
+  return list.filter(function(driver) {
+    return driver.name.toLowerCase() === name.toLowerCase;
   });
 }
